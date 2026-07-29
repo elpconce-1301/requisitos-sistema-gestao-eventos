@@ -1,3 +1,38 @@
+# Sistema de Gestão de Eventos — Engenharia de Requisitos com IA Generativa
+
+## 1. Descrição do Projeto
+
+A empresa Eventus organiza congressos, workshops e eventos corporativos. Atualmente, o gerenciamento das inscrições é feito por meio de formulários on-line e planilhas, dificultando o controle de vagas, pagamentos, cancelamentos e emissão de certificados. Com o aumento do número de eventos, a empresa decidiu desenvolver um Sistema de Gestão de Eventos para centralizar essas atividades e melhorar a experiência de participantes e organizadores.
+
+Trechos do documento de elicitação:
+> “A empresa Eventus organiza congressos, workshops e eventos corporativos.”
+> “Não foi definido até quando o participante poderá cancelar sua inscrição.”
+
+## 2. Objetivo da Atividade
+
+Esta atividade tem como objetivo aplicar técnicas de engenharia de requisitos com apoio de IA generativa, realizando:
+
+- análise do documento de elicitação;
+- identificação de requisitos funcionais, não funcionais e regras de negócio;
+- levantamento de ambiguidades e lacunas;
+- seleção dos artefatos de especificação mais adequados;
+- elaboração dos artefatos escolhidos com apoio da IA.
+
+## 3. Organização do Repositório
+requisitos-sistema-gestao-eventos/
+│
+├── README.md
+│
+├── analise/
+│   ├── requisitos-funcionais.md
+│   ├── requisitos-nao-funcionais.md
+│   ├── regras-de-negocio.md
+│   └── duvidas-e-lacunas.md
+│
+└── especificacao/
+├── historias-de-usuario.md
+├── casos-de-uso.md
+└── criterios-de-aceitacao.md
 
 A pasta **analise/** contém os artefatos derivados diretamente do documento de elicitação.  
 A pasta **especificacao/** contém os artefatos escolhidos para representar o sistema.
